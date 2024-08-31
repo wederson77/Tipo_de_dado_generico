@@ -34,7 +34,4 @@ fn main() {
     let b_float: f32 = 77.77;
     println!("O float maior é: {}", maior(a_float, b_float));
 
-    let a_float_i32: f32 = 55.55;
-    let b_str: &str = "77.77";
-    println!("O dado maior é: {}", maior(a_float_i32, b_str));
 }
