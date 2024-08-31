@@ -25,4 +25,16 @@ fn main() {
     let b: &str = "wenderson"; 
     // Chama a função `maior` com `a` e `b` e imprime a maior string em termos lexicográficos.
     println!("A maior String é: {}", maior(a, b));
+
+    let array_a: Vec<i32> = vec![1, 2, 3, 4, 5];
+    let array_b: Vec<i32> = vec![1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    println!("O vetor maior é: {:?}", maior(array_a, array_b));
+
+    let a_float: f32 = 55.55;
+    let b_float: f32 = 77.77;
+    println!("O float maior é: {}", maior(a_float, b_float));
+
+    let a_float_i32: f32 = 55.55;
+    let b_str: &str = "77.77";
+    println!("O dado maior é: {}", maior(a_float_i32, b_str));
 }
